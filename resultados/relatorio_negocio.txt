@@ -1,19 +1,18 @@
 ============================================================
-    🎯 RESUMO EXECUTIVO DE NEGÓCIO - SUPERMARKET SALES
-    ============================================================
-    1. Filial com Maior Faturamento: Giza (R$ 110,568.86)
-    2. Filial com Maior Qtd de Vendas: Alex (1859 itens)
-    3. Linha de Produto com Maior Faturamento: Food and beverages (R$ 56,144.96)
-    4. Linha com Melhor Avaliação Média: Food and beverages (7.11)
-    5. Forma de Pagamento Mais Utilizada: Ewallet (345 transações)
-    6. Valor Médio das Vendas (Ticket Médio): R$ 322.97
-    7. Maior Venda Registrada: R$ 1,042.65
-    8. Dia da Semana com Mais Vendas: Sábado (164 transações)
-    =============================================================
-    Levantamento de Insights Adicionais:
-    9. Categoria de Produto com Mais Vendas: Electronic accessories (971 itens vendidos)
-    10. Comparação de Desempenho entre Filiais: Giza: R$ 110,568.86, Alex: R$ 106,200.57, Cairo: R$ 106,198.00
-    11. 5 Períodos com Maior Qtd de Vendas: 2019-02-07: 128 itens vendidos, 2019-03-14: 117 itens vendidos, 2019-02-15: 106 itens vendidos, 2019-03-05: 103 itens vendidos, 2019-03-09: 99 itens vendidos
-    12. Satisfação dos Clientes por Gênero: Male: 6.99 / 10, Female: 6.96 / 10
-    =============================================================
-    
+🎯 RESUMO EXECUTIVO DE NEGÓCIO - SUPERMARKET SALES
+============================================================
+1. Filial com Maior Faturamento: Giza (R$ 110,568.86)
+2. Filial com Maior Qtd de Vendas: Alex (1859 itens)
+3. Linha de Produto com Maior Faturamento: Food and beverages (R$ 56,144.96)
+4. Linha com Melhor Avaliação Média: Food and beverages (7.11)
+5. Forma de Pagamento Mais Utilizada: Ewallet (345 transações)
+6. Valor Médio das Vendas (Ticket Médio): R$ 322.97
+7. Maior Venda Registrada: R$ 1,042.65
+8. Dia da Semana com Mais Vendas: Saturday (164 transações)
+=============================================================
+Levantamento de Insights Adicionais:
+9. Categoria de Produto com Mais Vendas: Electronic accessories (971 itens vendidos)
+10. Comparação de Desempenho entre Filiais: Giza: R$ 110,568.86, Alex: R$ 106,200.57, Cairo: R$ 106,198.00
+11. 5 Períodos com Maior Qtd de Vendas: 2019-02-07: 128 itens vendidos, 2019-03-14: 117 itens vendidos, 2019-02-15: 106 itens vendidos, 2019-03-05: 103 itens vendidos, 2019-03-09: 99 itens vendidos
+12. Satisfação dos Clientes por Gênero: Male: 6.99 / 10, Female: 6.96 / 10
+=============================================================

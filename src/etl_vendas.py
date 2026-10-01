@@ -61,5 +61,5 @@ def executar_etl():
         conn.execute(text("CREATE SCHEMA IF NOT EXISTS processed;"))
         
     df_tratado.to_sql(name='vendas_tratadas', con=engine, schema='processed', if_exists='append', index=False)
-    print("✅ ETL concluído e dados gravados na camada processed!")
+    print("✅ ETL concluído e dados tratados gravados na camada processed!")
 

@@ -71,11 +71,30 @@ def gerar_estatisticas():
     # Gerar e Salvar Gráficos
     path_img = os.path.join("resultados", "estatisticas e graficos")
     os.makedirs(path_img, exist_ok=True)
-    
+
+    # Gráfico 1: Faturamento por Filial
     plt.figure(figsize=(7, 4))
     sns.barplot(x=fat_filial.index, y=fat_filial.values, palette="mako")
     plt.title("Faturamento por Filial")
     plt.savefig(os.path.join(path_img, "faturamento_por_filial.png"))
+    plt.close()
+
+    # Gráfico 2: Quantidade de Vendas por Filial
+    plt.figure(figsize=(7, 4))
+    sns.barplot(x=qtd_filial.index, y=qtd_filial.values, palette="mako")
+    plt.title("Quantidade de Vendas por Filial")
+    plt.savefig(os.path.join(path_img, "quantidade_vendas_por_filial.png"))
+    plt.close()
+
+    # Gráfico 3: Quantidade de Vendas por Período
+    plt.figure(figsize=(7, 4))
+    sns.lineplot(x=vendas_periodo.index, y=vendas_periodo.values, marker='o')
+    plt.title("Quantidade de Vendas por Período")
+    plt.xlabel("Data")
+    plt.ylabel("Quantidade de Vendas")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(os.path.join(path_img, "quantidade_vendas_por_periodo.png"))
     plt.close()
 
     # Salvar resumo textual das respostas em resultados/
